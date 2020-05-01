@@ -1,0 +1,43 @@
+{
+  "name": "microservice-pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.0",
+    "assert": "^2.0.0",
+    "async": "^3.2.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "core-util-is": "^1.0.2",
+    "express": "^4.17.1",
+    "knex": "^0.20.11",
+    "log4js": "^6.1.2",
+    "mock-knex": "^0.4.7",
+    "moment-timezone": "^0.5.28",
+    "morgan": "^1.9.1",
+    "paypal-rest-sdk": "^1.8.1",
+    "pg": "^7.18.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "test": "^0.6.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "mocha": "^7.1.0",
+    "nodemon": "^2.0.2",
+    "nyc": "^15.0.0"
+  }
+}
